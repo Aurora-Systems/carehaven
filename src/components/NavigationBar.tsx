@@ -21,8 +21,19 @@ export const Navbar = () => {
     return (
         <nav className="rounded mt-3 z-1  navbar navbar-expand-lg  position-sticky top-0 pt-3 w-100 ">
             <div className="container nav-design p-3 rounded">
-                <a href="/" onClick={closeNavbar}>
-                <img  src="https://aurorasystems.sirv.com/champions_logo.png" className="mt-1 me-3 rounded  img-fluid" width="55"/>
+                <a href="/" onClick={closeNavbar} className="d-flex align-items-center">
+                  <img 
+                    src="https://cdn.clipond.com/CareHaven/logo.png" 
+                    alt="Care Haven Logo" 
+                    className="me-3 rounded"
+                    style={{ 
+                      height: '50px', 
+                      width: 'auto',
+                      backgroundColor: 'white',
+                      padding: '8px',
+                      objectFit: 'contain'
+                    }}
+                  />
                 </a>
                 <button className="navbar-toggler bg-white border-0" type="button" onClick={toggleNavbar}>
                     <i className="bi bi-list p-txt"></i>
@@ -42,9 +53,6 @@ export const Navbar = () => {
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" href={"#values"} onClick={closeNavbar}>Values</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href={"#team"} onClick={closeNavbar}>Team</a>
                         </li>
                        
                     </ul>

@@ -6,7 +6,7 @@ import Hero from './components/Hero';
 import About from './components/About';
 import Services from './components/Services';
 import Values from './components/Values';
-import Team from './components/Team';
+import Gallery from './components/Gallery';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import FloatingWhatsApp from 'react-floating-whatsapp';
@@ -19,13 +19,13 @@ function App() {
       <About />
       <Services />
       <Values />
-      <Team />
+      <Gallery />
       <Contact />
       <Footer />
       <FloatingWhatsApp
-        phoneNumber='+263772414606'
-        avatar='https://aurorasystems.sirv.com/champions_logo.png'
-        accountName='Champions Accounting Services'
+        phoneNumber='+263787260030'
+        avatar='https://cdn.clipond.com/CareHaven/122849.jpg'
+        accountName='Care Haven'
       />
     </div>
   );
